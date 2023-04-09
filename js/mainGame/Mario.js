@@ -1,7 +1,7 @@
 function Mario() {
   var gameUI = GameUI.getInstance();
 
-  this.type = 'small';
+  this.type = 'big';
   this.x;
   this.y;
   this.width = 32;
