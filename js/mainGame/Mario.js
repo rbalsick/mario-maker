@@ -23,7 +23,7 @@ function Mario() {
     that.y = gameUI.getHeight() - 40 - 40;
 
     marioSprite = new Image();
-    marioSprite.src = 'images/mario-sprites.png';
+    marioSprite.src = 'images/emma1.png';
   };
 
   this.draw = function() {
