@@ -20,7 +20,7 @@ function Mario() {
 
   this.init = function() {
     that.x = 10;
-    that.y = gameUI.getHeight() - 20 - 20;
+    that.y = gameUI.getHeight() - 40 - 40;
 
     marioSprite = new Image();
     marioSprite.src = 'images/emma1.png';
@@ -37,9 +37,9 @@ function Mario() {
 
       //big mario sprite position
       if (that.invulnerable) {
-        that.sY = 276; //if invulnerable, show transparent mario
+        that.sY = 376; //if invulnerable, show transparent mario
       } else {
-        that.sY = 90;
+        that.sY = 190;
       }
     } else if (that.type == 'small') {
       that.height = 44;
