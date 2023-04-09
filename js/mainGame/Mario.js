@@ -20,7 +20,7 @@ function Mario() {
 
   this.init = function() {
     that.x = 10;
-    that.y = gameUI.getHeight() - 40 - 40;
+    that.y = gameUI.getHeight() - 20 - 20;
 
     marioSprite = new Image();
     marioSprite.src = 'images/emma1.png';
